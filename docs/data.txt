@@ -1,0 +1,62 @@
+You have been contracted as a System Architect for COCIS. Design a data center and new computing lab for your COCIS. State your assumptions regarding space, networking equipment, numbers of machines, and type and power load of each machine/device. Include servers, networking devices and client workstations. Include the layout of the room, the lighting, and the expected human load as well.
+1.	Provide specifications for each device
+2.	Compute the power and cooling requirements for the data center and lab
+3.	Assuming, your servers are to host DNS, Web, Mail & Application servers. What monitoring tools would you use to monitor these services?
+4.	Since the application servers are mission critical, as the system admin, you are required to write a script that displays summary of status data related to one of the following categories: CPU, memory, disk, or network. The script should leverage OS commands and files to build an easy-to understand dashboard that includes as much information as possible.
+5.	The log messages from the application servers are extremely important and must be reviewed by administration immediately. What system could you set up to make sure that this happens as quickly as possible?
+
+6.	Assuming All computers at COCIS have 500GB disk. You have been asked to recommend a backup device that balances cost vs. support needs and provide justification for your selection
+a)	The Research unit at COCIS has 50 machines. Each machine holds a lot of important data that changes often.
+b)	A development group at COCIS has 10 machines. Source code is stored on a central server that has 4TB of disk space. The source code changes throughout the day. The programmers’ home directories do not change very often. Cost is of little concern and security is of utmost importance.
+c)	The Principal’s office network has two machines. Cost is the most important consideration, and the users are not system administrators.
+
+Question 1 solution
+Assumptions (type and power load)
+1.	Space
+•	The laboratory and datatcenter are to be located at level 4, COCIS block A big lab 4 section. This section of level 4 offers a space of 2600 square meters (40m X 65m).
+•	The space is logically divided into 6 sections (S1 – S6). The 5 sections (S2 -S6) are used for student work stations and the other one section (S1) is used to accomodate the data center and management workstations.
+•	The student sections (section S2 – S5) are (40m X 10m) making 400 square meters. The datacenter and management section (S1) is (40m X 15m) making 600 square meters.
+
+2.	Networking equipment
+3.	Servers 
+ 
+4.	Client workstations
+The workstations are categorized into the following
+a.	Student workstations
+These are the machines to be used by students. They offer the following minimum security baseline (MSB).
+SPECIFICATION	DETAILS
+Display
+Product 	HP P22va G4 FHD Monitor
+Screen size	21.5 inches
+Resolution 	1920 x 1080
+Display ports	HDMI, VGA
+Power 	100 - 240 VAC 50/60 Hz
+Computing
+Product 	Intel NUC
+Processing power	Intel i3 8th generation at atleast 2.0 GHz
+Memory 	8 Gigabyte 
+Storage	40 Gigabyte
+Ports 	1 Power input 
+3 usb ports 
+1 HDMI port
+1 VGA,
+1 audio input
+1 Fast Ethernet (802.3)
+Power 	100 - 240 VAC 50/60 Hz
+Peripherals
+Keyboard	Primary input
+Mouse 	Secondary input
+Software
+Operating system	Windows 10
+
+b.	Management workstations
+
+
+5.	Lighting
+6.	Human load
+Other assumptions
+1.	The room space is divided into 6 sections, 5 sections are for students and the other section houses the data center together with the management stations.
+2.	The room floor is trenched to provide trunking for cabling, that is power and networking
+3.	The ceiling holds the lighting and 
+4.	the computer laboratory has 200 thin clients for students, 5 management desktops for administrators.
+5.	
