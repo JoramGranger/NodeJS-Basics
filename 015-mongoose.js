@@ -10,7 +10,7 @@ const blogRoutes = require('./routes/blogRoutes');
 const app = express();
 
 // DB CON
-const dbURI = 'mongodb+srv://root:DBacc355@nodegs.5cvbb8h.mongodb.net/BLOGDB?retryWrites=true&w=majority';
+const dbURI = 'mongodb+srv://<user>:<password>@<node-atlas-link';
 mongoose.connect(dbURI, { useNewUrlParser: true, useUnifiedTopology: true })
     .then((result) => app.listen(3000)/* console.log('db con 200') */)
     .catch((err) => console.log(err));
